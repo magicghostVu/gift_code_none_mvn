@@ -44,6 +44,12 @@
         </property>
     </bean>
 
+    <bean id="trackingDataDAO" class="dao.TrackingModelDAO" init-method="init" >
+        <property name="databaseConn">
+            <ref bean="database_conn"></ref>
+        </property>
+    </bean>
+
     <!--<bean id="mongo_database_wrap" class="db.MongoDatabaseWrap">
     </bean>
     <bean id = "user_DAO_impl" class="model.UserDAOImpl">

@@ -18,6 +18,8 @@ public class ServerConfig {
 
     public static String USER_COLLECTION_MAPPING;
 
+    public static String TRACKING_COLLECTION_NAME;
+
 
     //public static Gson globalGson = new Gson();
 
@@ -32,6 +34,7 @@ public class ServerConfig {
         TYPE_MAPPING = properties.getString("type_mapping");
         COLLECTIONNAME_GENERATED = properties.getString("collectionNameGenerated");
         USER_COLLECTION_MAPPING = properties.getString("userCollectionMapping");
+        TRACKING_COLLECTION_NAME=   properties.getString("trackingCollection");
     }
 
 

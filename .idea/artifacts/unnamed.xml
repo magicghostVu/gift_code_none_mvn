@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="root">
+      <element id="archive" name="app">
+        <element id="module-output" name="gift_code_not_mvn" />
+      </element>
+      <element id="directory" name="libs">
+        <element id="dir-copy" path="$PROJECT_DIR$/libs" />
+      </element>
+      <element id="directory" name="config">
+        <element id="dir-copy" path="$PROJECT_DIR$/config" />
+      </element>
+    </root>
+  </artifact>
+</component>
